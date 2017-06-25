@@ -8,7 +8,7 @@
     left:1vh;
     top: -4vh;
     z-index: 4;
-    background: url("../../images/zuoshangjiao-fushi.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/zuoshangjiao-fushi.png?imageslim") center 0 no-repeat;
     background-size: contain;
     position:relative;
 }
@@ -27,17 +27,17 @@
     position: relative;
 }
 .btn-nvzhuang{
-    background: url("../../images/fushi-nvzhuang-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/fushi-nvzhuang-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .btn-nanzhuang{
-    background: url("../../images/fushi-nanzhuang-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/fushi-nanzhuang-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 
 .btn-nvzhuang:hover{
-    background-image: url("../../images/fushi-nvzhuang-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/fushi-nvzhuang-hover.png?imageslim") ;
 }
 .btn-nanzhuang:hover{
-    background-image: url("../../images/fushi-nanzhuang-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/fushi-nanzhuang-hover.png?imageslim") ;
 }

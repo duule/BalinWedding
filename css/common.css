@@ -12,7 +12,7 @@ body{
     width:25vh;
     height: 14vh;
     z-index: 5;
-    background: url("../images/zuoshangjiao-shouye.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/zuoshangjiao-shouye.png?imageslim") center 0 no-repeat;
     background-size: contain;
     position:relative;
 }

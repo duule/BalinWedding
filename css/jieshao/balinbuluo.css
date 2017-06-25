@@ -3,7 +3,7 @@
     top:4vh;
 }
 .btn-balinbuluo{
-    background: url("../../images/jieshao-balinbuluo-hover.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/jieshao-balinbuluo-hover.png?imageslim") center 0 no-repeat;
     background-size: contain;
     z-index: 20;
 }
@@ -11,6 +11,6 @@
     position: absolute;
     z-index: -9;
     height: 93vh;  width: 172vh;
-    background : url(../../images/balinbuluo-background.png) center 0  no-repeat ;
+    background : url(http://os41igb6f.bkt.clouddn.com/balinbuluo-background.png?imageslim) center 0  no-repeat ;
     background-size: 170vh 100vh;
 }

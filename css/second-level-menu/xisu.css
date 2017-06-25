@@ -4,7 +4,7 @@
     left:1vh;
     top: -4vh;
     z-index: 4;
-    background: url("../../images/zuoshangjiao-xisu.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/zuoshangjiao-xisu.png?imageslim") center 0 no-repeat;
     background-size: contain;
     position:relative;
 }
@@ -26,38 +26,38 @@
     position: relative;
 }
 .btn-qiuqin{
-    background: url("../../images/xisu-qiuqin-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/xisu-qiuqin-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .btn-dingqin{
-    background: url("../../images/xisu-dingqin-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/xisu-dingqin-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .btn-quqin{
-    background: url("../../images/xisu-quqin-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/xisu-quqin-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .btn-hunyan{
-    background: url("../../images/xisu-hunyan-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/xisu-hunyan-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .btn-hunhou{
-    background: url("../../images/xisu-hunhou-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/xisu-hunhou-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 
 .btn-qiuqin:hover{
-    background-image: url("../../images/xisu-qiuqin-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/xisu-qiuqin-hover.png?imageslim") ;
 }
 .btn-dingqin:hover{
-    background-image: url("../../images/xisu-dingqin-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/xisu-dingqin-hover.png?imageslim") ;
 }
 .btn-quqin:hover{
-    background-image: url("../../images/xisu-quqin-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/xisu-quqin-hover.png?imageslim") ;
 }
 .btn-hunyan:hover{
-    background-image: url("../../images/xisu-hunyan-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/xisu-hunyan-hover.png?imageslim") ;
 }
 .btn-hunhou:hover{
-    background-image: url("../../images/xisu-hunhou-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/xisu-hunhou-hover.png?imageslim") ;
 }

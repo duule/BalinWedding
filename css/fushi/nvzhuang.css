@@ -2,11 +2,11 @@
     position: absolute;
     z-index: -9;
     height: 93vh;  width: 172vh;
-    background : url(../../images/nvzhuang-background.png) center 0  no-repeat ;
+    background : url(http://os41igb6f.bkt.clouddn.com/nvzhuang-background.png?imageslim) center 0  no-repeat ;
     background-size: 170vh 100vh;
 }
 
 .btn-nvzhuang{
-    background: url("../../images/fushi-nvzhuang-hover.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/fushi-nvzhuang-hover.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }

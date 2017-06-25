@@ -6,7 +6,7 @@
     position: absolute;
     z-index: -9;
     height: 93vh;  width: 172vh;
-    background : url(../../images/balinhunli-background.png) center 0  no-repeat ;
+    background : url(http://os41igb6f.bkt.clouddn.com/balinhunli-background.png?imageslim) center 0  no-repeat ;
     background-size: 170vh 100vh;
 }
 .btn-home {
@@ -15,7 +15,7 @@
 }
 
 .btn-balinhunli{
-    background: url("../../images/jieshao-balinhunli-hover.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/jieshao-balinhunli-hover.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 
@@ -32,7 +32,7 @@
     position: relative;
     top:-57vh;
     left:111vh;
-    background: url("../../images/vidwo-background.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/vidwo-background.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .video-image{
@@ -47,11 +47,11 @@
     position: relative;
     top:-12vh;
     left:22vh;
-    background: url("../../images/btn-play-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/btn-play-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
-.btn-play:hover{  background-image: url("../../images/btn-play-hover.png");  }
-.btn-play:active{  background-image: url("../../images/btn-play-active.png");  }
+.btn-play:hover{  background-image: url("http://os41igb6f.bkt.clouddn.com/btn-play-hover.png?imageslim");  }
+.btn-play:active{  background-image: url("http://os41igb6f.bkt.clouddn.com/btn-play-active.png?imageslim");  }
 
 
 .video-viewer{
@@ -62,7 +62,7 @@
     position: fixed;
     top: 0;
     z-index:10;
-    background: url("../../images/play-video-background.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/play-video-background.png?imageslim") center 0 no-repeat;
     background-size: contain;
 
 }
@@ -72,7 +72,7 @@
     position: relative;
     top:87.2vh;
     left: 160vh;
-    background: url("../../images/play-video-btn-close.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/play-video-btn-close.png?imageslim") center 0 no-repeat;
     background-color: rgba(0,0,0,0);
     background-size: contain;
 }
@@ -93,35 +93,35 @@
 .video-control-per{
     top:78vh;
     left: 72vh;
-    background: url("../../images/video-controls-per-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/video-controls-per-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .video-control-play{
     top:71.2vh;
     left:83vh;
-    background: url("../../images/video-controls-play-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/video-controls-play-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .video-control-stop{
     top:71.2vh;
     display: none;
     left:83vh;
-    background: url("../../images/video-controls-stop-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/video-controls-stop-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .video-control-next{
     top:64.5vh;
     left: 94vh;
-    background: url("../../images/video-controls-next-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/video-controls-next-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 
-.video-control-per:hover{  background-image: url("../../images/video-controls-per-hover.png") ; }
-.video-control-play:hover{  background-image: url("../../images/video-controls-play-hover.png") ;  }
-.video-control-stop:hover{  background-image: url("../../images/video-controls-stop-hover.png") ;  }
-.video-control-next:hover{  background-image: url("../../images/video-controls-next-hover.png") ;  }
+.video-control-per:hover{  background-image: url("http://os41igb6f.bkt.clouddn.com/video-controls-per-hover.png?imageslim") ; }
+.video-control-play:hover{  background-image: url("http://os41igb6f.bkt.clouddn.com/video-controls-play-hover.png?imageslim") ;  }
+.video-control-stop:hover{  background-image: url("http://os41igb6f.bkt.clouddn.com/video-controls-stop-hover.png?imageslim") ;  }
+.video-control-next:hover{  background-image: url("http://os41igb6f.bkt.clouddn.com/video-controls-next-hover.png?imageslim") ;  }
 
-.video-control-per:active{  background-image: url("../../images/video-controls-per-active.png") ; }
-.video-control-play:active{  background-image: url("../../images/video-controls-play-active.png") ;  }
-.video-control-stop:active{  background-image: url("../../images/video-controls-stop-active.png") ;  }
-.video-control-next:active{  background-image: url("../../images/video-controls-next-active.png") ;  }
+.video-control-per:active{  background-image: url("http://os41igb6f.bkt.clouddn.com/video-controls-per-active.png?imageslim") ; }
+.video-control-play:active{  background-image: url("http://os41igb6f.bkt.clouddn.com/video-controls-play-active.png?imageslim") ;  }
+.video-control-stop:active{  background-image: url("http://os41igb6f.bkt.clouddn.com/video-controls-stop-active.png?imageslim") ;  }
+.video-control-next:active{  background-image: url("http://os41igb6f.bkt.clouddn.com/video-controls-next-active.png?imageslim") ;  }

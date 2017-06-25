@@ -4,7 +4,7 @@
     left:1vh;
     top: -4vh;
     z-index: 4;
-    background: url("../../images/zuoshangjiao-jieshao.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/zuoshangjiao-jieshao.png?imageslim") center 0 no-repeat;
     background-size: contain;
     position:relative;
 }
@@ -23,25 +23,25 @@
     position: relative;
 }
 .btn-balinhunli{
-    background: url("../../images/jieshao-balinhunli-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/jieshao-balinhunli-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .btn-balinbuluo{
-    background: url("../../images/jieshao-balinbuluo-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/jieshao-balinbuluo-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 .btn-balinyouqi{
-    background: url("../../images/jieshao-balinyouqi-normal.png") center 0 no-repeat;
+    background: url("http://os41igb6f.bkt.clouddn.com/jieshao-balinyouqi-normal.png?imageslim") center 0 no-repeat;
     background-size: contain;
 }
 
 
 .btn-balinhunli:hover{
-    background-image: url("../../images/jieshao-balinhunli-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/jieshao-balinhunli-hover.png?imageslim") ;
 }
 .btn-balinbuluo:hover{
-    background-image: url("../../images/jieshao-balinbuluo-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/jieshao-balinbuluo-hover.png?imageslim") ;
 }
 .btn-balinyouqi:hover{
-    background-image: url("../../images/jieshao-balinyouqi-hover.png") ;
+    background-image: url("http://os41igb6f.bkt.clouddn.com/jieshao-balinyouqi-hover.png?imageslim") ;
 }
