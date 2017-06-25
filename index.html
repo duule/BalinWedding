@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>巴林婚礼</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.query-2.1.7.js"></script>
+</head>
+<body>
+    <div class = index-body>
+        <div class="nav1">
+            <a id="index_btn_introduce" class="index-btn index-btn-1" onclick="showMenu_introduce()"></a>
+            <a id="index_btn_custom" class="index-btn index-btn-2" onclick="showMenu_custom()"></a>
+        </div>
+        <div class="nav2">
+            <a id="index_btn_dress" class="index-btn index-btn-3" onclick="showMenu_dress()"></a>
+            <a id="index_btn_modern" class="index-btn index-btn-4" onclick="showMenu_modern()" href="second-level-page/xiandai/xiandai.html"></a>
+        </div>
+    </div>
+
+
+    <a id="btn_home" class="btn-home" onclick="showHomePage()"></a>
+    <div id="second_level_menu" class="second-level-menu">
+        <a id="introduce_1" class="introduce-1" href="second-level-page/jieshao/balinhunli.html"></a>
+        <a id="introduce_2" class="introduce-2" href="second-level-page/jieshao/balinbuluo.html"></a>
+        <a id="introduce_3" class="introduce-3" href="second-level-page/jieshao/balinyouqi.html"></a>
+
+        <a id="custom_1" class="custom-1" href="second-level-page/xisu/qiuqin.html"></a>
+        <a id="custom_2" class="custom-2" href="#"></a>
+        <a id="custom_3" class="custom-3" href="second-level-page/xisu/qvqin.html"></a>
+        <a id="custom_4" class="custom-4" href="#"></a>
+        <a id="custom_5" class="custom-5" href="#"></a>
+
+        <a id="dress_1" class="dress-1" href="second-level-page/fushi/nvzhuang.html"></a>
+        <a id="dress_2" class="dress-2" href="second-level-page/fushi/nanzhuang.html"></a>
+    </div>
+    <script>
+        $(function () {
+            getData();
+        });
+        function getData() {
+            var jumpParm = $.query.get("jumpParm");
+            if(1 === jumpParm)showMenu_introduce();
+            else if(2 === jumpParm)showMenu_custom();
+            else if(3 === jumpParm)showMenu_dress();
+            else if(4 === jumpParm)showMenu_modern();
+        }
+    </script>
+</body>
+</html>
