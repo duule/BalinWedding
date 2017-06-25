@@ -1,0 +1,23 @@
+.btn-home{
+    left:1vh;
+    top:4vh;
+}
+
+.btn-xiandai{
+    width:25vh;
+    height: 14vh;
+    left:1vh;
+    top: -4vh;
+    z-index: 4;
+    background: url("../../images/zuoshangjiao-xiandai.png") center 0 no-repeat;
+    background-size: contain;
+    position:relative;
+}
+
+.xiandai-body{
+    position: absolute;
+    z-index: -9;
+    height: 93vh;  width: 172vh;
+    background : url(../../images/xiandai-background.png) center 0  no-repeat ;
+    background-size: 170vh 100vh;
+}

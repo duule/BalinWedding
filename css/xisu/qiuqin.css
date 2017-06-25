@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Yuppy_SC";
+    src: url("../../fonts/YuppySC-Regular.otf");
+}
+.btn-home{
+    left:1vh;
+    top:4vh;
+}
+.qiuqin-body{
+    position: absolute;
+    z-index: -9;
+    height: 93vh;  width: 172vh;
+    background : url(../../images/qiuqin-background.png) center 0  no-repeat ;
+    background-size: 170vh 100vh;
+}
+.btn-qiuqin{
+    background: url("../../images/xisu-qiuqin-hover.png") center 0 no-repeat;
+    background-size: contain;
+}
+.out-of-content{
+    width: 124vh;
+    height: 70vh;
+    position: relative;
+    top: -39vh;
+    left: 23vh;
+    background: url("../../images/qiuqin-content-background.png") center 0 no-repeat;
+    background-size: contain;
+}
+.text-contet{
+    font-size: 2.5vh;
+    width: 50vh;
+    height: 25vh;
+    position: relative;
+    font-family: Yuppy_SC, serif;
+    top: 18vh;
+    left: 25vh;
+}
+.img-content{
+    width: 31vh;
+    height: 25.5vh;
+    position: relative;
+    top: -4.5vh;
+    left:82vh;
+}
+
+.picture-viewer{
+    width: 172vh;
+    height: 98vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(64,64,65,0.67);
+    display: none;
+    z-index: 20;
+}
+.show-picture{
+    width: 120vh;
+    height: 75.5vh;
+    position: fixed;
+    top: 10vh;
+    left:28vh;
+    background-color: rgb(46,61,92);
+    padding: 0.3vh;
+}
+.btn-close-picture-viewer{
+    width: 7vh;
+    height: 7vh;
+    position: fixed;
+    background: url("../../images/btn-close.png") center 0 no-repeat;
+    background-size: contain;
+    top:6.5vh;
+    left:145vh;
+
+}

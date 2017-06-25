@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>巴林婚礼·介绍·巴林婚礼</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/second-level-menu/jieshao.css">
+    <link rel="stylesheet" href="../../css/jieshao/balinhunli.css">
+    <script type="text/javascript" src="../../js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../../js/jieshao/balinhunli.js"></script>
+</head>
+<body>
+    <div class="balinhunli-body"></div>
+    <a class="btn-home" href="../../index.html"></a>
+    <a class="btn-jieshao" href="../../index.html?jumpParm=1"></a>
+    <div class="nav">
+        <a class="btn-balinhunli"></a>
+        <a class="btn-balinbuluo" href="balinbuluo.html"></a>
+        <a class="btn-balinyouqi" href="balinyouqi.html"></a>
+    </div>
+    <div class="text-content">
+        <p>巴林蒙古族婚礼习俗丰富多彩， </p>
+        <p>具有浓郁的草原生活气息，</p>
+        <p>又有着 鲜明的地域文化和游牧文化特点。 </p>
+        <p>它高雅不俗，别具一格，充满了诗情画意。</p>
+        <p>婚礼自始至终都洋溢着多姿多彩的草原民族风情。</p><br /><br />
+        <p>--巴林蒙古族作家</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;纳·宝音贺希格所著的《巴林婚礼》</p>
+    </div>
+    <div class="video-content">
+        <a onclick="showVideoViewer()"><img class= "video-image" src="../../images/video-pic.png" width="80%" height="72%"></a>
+        <a onclick="showVideoViewer()" class="btn-play"></a>
+    </div>
+    <div id="video_viewer" class="video-viewer">
+        <a id="video_viewer_btn_close" class="video-viewer-btn-close" onclick="hideVideoViewer()"></a>
+        <a id="video_control_per" class="video-control-per"></a>
+        <a id="video_control_play" class="video-control-play"></a>
+        <a id="video_control_stop" class="video-control-stop"></a>
+        <a id="video_control_next" class="video-control-next"></a>
+
+        <video id="video" class="video pause" poster="../../images/video-pic-2.png" width="100%" height="100%">
+            <source src = "../../videos/video.mp4" type="video/mp4">
+        </video>
+        <script type="text/javascript">
+            $btn_Play = $('#video_control_play');
+            $btn_Stop = $('#video_control_stop');
+            $btn_Per = $('#video_control_per');
+            $btn_Next =  $('#video_control_next');
+            function play_video() {
+                var $v = $('video');
+                $v.trigger("play");
+                $v.removeClass('pause');
+                $v.addClass('play');
+                $btn_Play.hide();
+                $btn_Stop.show();
+            }
+            function stop_video(){
+                var $v = $('video');
+                $v.trigger("pause");
+                $v.removeClass('play');
+                $v.addClass('pause');
+                $btn_Stop.hide();
+                $btn_Play.show();
+            }
+            function add_5sec(){
+                var video = document.getElementById("video");
+                console.log(video.currentTime);
+                video.currentTime += 5;
+                console.log(video.currentTime);
+            }
+            function sub_5sec(){
+            }
+            $('video').click(function() {
+                if ($(this).hasClass('pause') ) {play_video();}
+                else {stop_video();}
+            });
+            $btn_Play.click(function () { play_video(); });
+            $btn_Stop.click(function () { stop_video(); });
+            function init(){
+                document.getElementById("video_control_per").addEventListener("click", function () {
+                    var video = document.getElementById("video");
+                    console.log(video.currentTime);
+                    video.currentTime -= 5;
+                    console.log(video.currentTime);
+                },false);
+                document.getElementById("video_control_next").addEventListener("click", function () {
+                    var video = document.getElementById("video");
+                    console.log(video.currentTime);
+                    video.currentTime += 5;
+                    console.log(video.currentTime);
+                },false);
+            }
+            document.addEventListener("DOMContentLoaded", init, false);
+            $('.video-viewer-btn-close').click(function (){
+                stop_video();
+            })
+        </script>
+    </div>
+</body>
+</html>

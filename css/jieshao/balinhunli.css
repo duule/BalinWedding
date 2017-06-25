@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Yuppy_SC";
+    src: url("../../fonts/YuppySC-Regular.otf");
+}
+.balinhunli-body{
+    position: absolute;
+    z-index: -9;
+    height: 93vh;  width: 172vh;
+    background : url(../../images/balinhunli-background.png) center 0  no-repeat ;
+    background-size: 170vh 100vh;
+}
+.btn-home {
+    left: 1vh;
+    top: 4vh;
+}
+
+.btn-balinhunli{
+    background: url("../../images/jieshao-balinhunli-hover.png") center 0 no-repeat;
+    background-size: contain;
+}
+
+.text-content{
+    position: relative;
+    top: -29vh;
+    left:28vh;
+    font-family: Yuppy_SC, serif;
+    font-size: 2.5vh;
+}
+.video-content{
+    width: 47vh;
+    height: 43vh;
+    position: relative;
+    top:-57vh;
+    left:111vh;
+    background: url("../../images/vidwo-background.png") center 0 no-repeat;
+    background-size: contain;
+}
+.video-image{
+    height: 27.8vh;
+    position: relative;
+    top:4.6vh;
+    left:5.7vh;
+}
+.btn-play{
+    width: 5vh;
+    height:5vh;
+    position: relative;
+    top:-12vh;
+    left:22vh;
+    background: url("../../images/btn-play-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+.btn-play:hover{  background-image: url("../../images/btn-play-hover.png");  }
+.btn-play:active{  background-image: url("../../images/btn-play-active.png");  }
+
+
+.video-viewer{
+    margin: 0 auto;
+    display: none;
+    width: 172vh;
+    height: 98vh;
+    position: fixed;
+    top: 0;
+    z-index:10;
+    background: url("../../images/play-video-background.png") center 0 no-repeat;
+    background-size: contain;
+
+}
+.video-viewer-btn-close{
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    top:87.2vh;
+    left: 160vh;
+    background: url("../../images/play-video-btn-close.png") center 0 no-repeat;
+    background-color: rgba(0,0,0,0);
+    background-size: contain;
+}
+.video{
+    background-color: mediumslateblue;
+    width: 93.5vh;
+    height: 70vh;
+    position: relative;
+    top: -17.6vh;
+    left: 39.9vh;
+}
+.video-control-per, .video-control-play, .video-control-stop, .video-control-next{
+    width: 7vh;
+    height: 7vh;
+    position: relative;
+    z-index:12;
+}
+.video-control-per{
+    top:78vh;
+    left: 72vh;
+    background: url("../../images/video-controls-per-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+.video-control-play{
+    top:71.2vh;
+    left:83vh;
+    background: url("../../images/video-controls-play-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+.video-control-stop{
+    top:71.2vh;
+    display: none;
+    left:83vh;
+    background: url("../../images/video-controls-stop-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+.video-control-next{
+    top:64.5vh;
+    left: 94vh;
+    background: url("../../images/video-controls-next-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+
+.video-control-per:hover{  background-image: url("../../images/video-controls-per-hover.png") ; }
+.video-control-play:hover{  background-image: url("../../images/video-controls-play-hover.png") ;  }
+.video-control-stop:hover{  background-image: url("../../images/video-controls-stop-hover.png") ;  }
+.video-control-next:hover{  background-image: url("../../images/video-controls-next-hover.png") ;  }
+
+.video-control-per:active{  background-image: url("../../images/video-controls-per-active.png") ; }
+.video-control-play:active{  background-image: url("../../images/video-controls-play-active.png") ;  }
+.video-control-stop:active{  background-image: url("../../images/video-controls-stop-active.png") ;  }
+.video-control-next:active{  background-image: url("../../images/video-controls-next-active.png") ;  }

@@ -1,0 +1,63 @@
+.btn-xisu{
+    width:25vh;
+    height: 14vh;
+    left:1vh;
+    top: -4vh;
+    z-index: 4;
+    background: url("../../images/zuoshangjiao-xisu.png") center 0 no-repeat;
+    background-size: contain;
+    position:relative;
+}
+
+
+.nav{
+    width: 100vh;
+    height: 20vh;
+    position: relative;
+    top: -27vh;
+    left: 99vh;
+    z-index: 10;
+}
+
+.btn-qiuqin, .btn-dingqin, .btn-quqin, .btn-hunyan, .btn-hunhou{
+    display: inline-block;
+    width: 12vh;
+    height: 100%;
+    position: relative;
+}
+.btn-qiuqin{
+    background: url("../../images/xisu-qiuqin-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+.btn-dingqin{
+    background: url("../../images/xisu-dingqin-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+.btn-quqin{
+    background: url("../../images/xisu-quqin-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+.btn-hunyan{
+    background: url("../../images/xisu-hunyan-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+.btn-hunhou{
+    background: url("../../images/xisu-hunhou-normal.png") center 0 no-repeat;
+    background-size: contain;
+}
+
+.btn-qiuqin:hover{
+    background-image: url("../../images/xisu-qiuqin-hover.png") ;
+}
+.btn-dingqin:hover{
+    background-image: url("../../images/xisu-dingqin-hover.png") ;
+}
+.btn-quqin:hover{
+    background-image: url("../../images/xisu-quqin-hover.png") ;
+}
+.btn-hunyan:hover{
+    background-image: url("../../images/xisu-hunyan-hover.png") ;
+}
+.btn-hunhou:hover{
+    background-image: url("../../images/xisu-hunhou-hover.png") ;
+}

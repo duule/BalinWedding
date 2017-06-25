@@ -1,0 +1,15 @@
+.btn-home{
+    left:1vh;
+    top:4vh;
+}
+.qvqin-body{
+    position: absolute;
+    z-index: -9;
+    height: 93vh;  width: 172vh;
+    background : url(../../images/qvqin-background.png) center 0  no-repeat ;
+    background-size: 170vh 100vh;
+}
+.btn-quqin{
+    background: url("../../images/xisu-quqin-hover.png") center 0 no-repeat;
+    background-size: contain;
+}

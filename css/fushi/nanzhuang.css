@@ -1,0 +1,11 @@
+.nanzhuang-body{
+    position: absolute;
+    z-index: -9;
+    height: 93vh;  width: 172vh;
+    background : url(../../images/nanzhuang-background.png) center 0  no-repeat ;
+    background-size: 170vh 100vh;
+}
+.btn-nanzhuang{
+    background: url("../../images/fushi-nanzhuang-hover.png") center 0 no-repeat;
+    background-size: contain;
+}
